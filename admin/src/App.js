@@ -6,7 +6,7 @@ import parseHydraDocumentation from '@api-platform/api-doc-parser/lib/hydra/pars
 
 
 
-const entrypoint = 'http://localhost:8080/app_dev.php';
+const entrypoint = 'http://songsmanager.westeurope.cloudapp.azure.com';
 
 const myApiDocumentationParser = entrypoint => parseHydraDocumentation(entrypoint)
   .then( ({ api }) => {
