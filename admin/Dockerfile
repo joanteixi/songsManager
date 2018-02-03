@@ -5,5 +5,5 @@ RUN yarn
 
 COPY ./build .
 EXPOSE 5000
-CMD ["yarn", "serve", "./"]
+CMD ["yarn", "serve", "-p 80",,"./"]
  
